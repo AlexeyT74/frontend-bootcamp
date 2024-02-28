@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+};
+nav {
+    background-color: rgb (51, 51, 51);
+};
+.hero-image {
+    width: 100%;
+}
+li:first-of-type {
+    background-color: green;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: solid 1px black;    
+    display: inline-block;
+}
+#first{
+    background-color: darkcyan;        
+}
+#second{
+    background-color: orange;        
+}
+#container{
+    background-color: lightgray;
+    width: 201px;
+    box-shadow: 4px 4px 4px black;    
+}
+.button{
+    background-color: lightgreen;
+    border: 2px solid green;    
+}
+input{
+    width: 150px;
+}
