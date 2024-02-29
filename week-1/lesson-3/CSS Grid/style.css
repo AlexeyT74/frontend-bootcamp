@@ -1,0 +1,28 @@
+input{    
+    justify-self: right;        
+}
+.search-btn{    
+    justify-self: left;
+}
+#search-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);    
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#results-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.result{
+    display: grid;
+    height: 100px;
+    background-color: #16a085;
+    text-align: center;
+    align-content: center;
+    border-radius: 4px;
+}

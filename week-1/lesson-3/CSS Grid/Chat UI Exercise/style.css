@@ -1,0 +1,46 @@
+#parent{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 20fr 1fr;
+    grid-template-areas: "f c""f m";
+}
+
+/* Friends area (left) */
+#friends{
+    background-color: magenta;
+    grid-area: f;
+}
+.text-left{
+    background-color: lightgray;
+    justify-self: left;
+}
+.text-right{
+    background-color: lightgreen;
+    justify-self: right;
+}
+
+/* Chat Area (right)*/
+#chat{
+    grid-area: c;
+    display: grid;
+    grid-gap: 100px;
+    grid-template-rows: repeat(5, 1fr);    
+}
+.message{    
+    font-family: cursive;
+    display:inline-block;
+    font-style: italic;    
+}
+.text{
+    font-size: 20px;
+}
+.time{
+    font-size: 8px;
+}
+
+/* Footer (right)*/
+#footer{
+    grid-area: m;
+    background-color: blue;
+}
