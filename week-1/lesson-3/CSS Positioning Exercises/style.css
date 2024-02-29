@@ -1,0 +1,128 @@
+/* General */
+.cube{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Present Exercise*/
+#present{
+    background-color: blue;
+    width: 200px;
+    height: 200px;                
+}
+.panel{
+    background-color: red;    
+    position: fixed;
+}
+#horizontal{
+    width: 100%;
+    height: 10px;
+    top: 30px;        
+}
+#vertical{
+    width: 10px;
+    height: 100%;
+    left: 20px;
+}
+
+/* Graph Exercise*/
+#graph{
+    background-color: rgb(101, 94, 161);
+    width: 300px;
+    height: 200px;
+    top: 250px;
+    border-radius: 10px;    
+}
+.bar{
+    background-color: lightgray;
+    width: 20px;
+    bottom: 5px;    
+    position: absolute;
+}
+#bar1{
+    height: 20px;
+    left:5px;    
+}
+#bar2{
+    height: 100px;
+    left:45px;    
+}
+#bar3{
+    height: 170px;
+    left:85px;    
+}
+#bar4{
+    height: 150px;
+    left:125px;    
+}
+#bar5{
+    height: 130px;
+    left:165px;    
+}
+#bar6{
+    height: 70px;
+    left:205px;    
+}
+.text{
+    position: absolute;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+#money{    
+    left: 5px;
+    top: 5px;
+}
+#time{
+    right:5px;
+    bottom:5px;
+}
+
+/* Magnet Exercise */
+#outer{
+    background-color: lightgray;
+    width: 300px;
+    height: 200px;
+    top:500px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#inner{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 170px;
+    height: 150px;
+}
+#lower{
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+}
+
+/* Chocolate Exercise */
+#black_back{
+    background-color: black;
+    width: 378px;
+    height: 192px;
+    top: 750px;
+}
+.piece{
+    background-color: #66320E;
+    width: 90px;
+    height: 90px;    
+    border: 2px solid black;
+    float: left;
+}
+#strip{
+    background-color: darkred;
+    width: 99%;
+    height: 3px;    
+    clear: left;    
+}
