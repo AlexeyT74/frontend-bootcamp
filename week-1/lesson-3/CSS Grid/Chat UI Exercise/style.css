@@ -5,19 +5,25 @@
     grid-template-rows: 20fr 1fr;
     grid-template-areas: "f c""f m";
 }
+body{
+    margin:0;
+}
 
 /* Friends area (left) */
 #friends{
-    background-color: magenta;
-    grid-area: f;
+    background-color: blueviolet;
+    display: grid;
+    grid-area: f;    
 }
-.text-left{
-    background-color: lightgray;
-    justify-self: left;
+#caption{
+    padding-left: 5px;
 }
-.text-right{
-    background-color: lightgreen;
-    justify-self: right;
+.name{
+    background-color: violet;    
+    align-self: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 /* Chat Area (right)*/
@@ -29,18 +35,40 @@
 }
 .message{    
     font-family: cursive;
-    display:inline-block;
-    font-style: italic;    
+    font-style: italic;        
+    align-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    align-self: center;
+}
+.text-left{
+    background-color: lightgray;
+    justify-self: left;
+}
+.text-right{
+    background-color: lightgreen;
+    justify-self: right;
 }
 .text{
     font-size: 20px;
+    display: inline;    
 }
 .time{
     font-size: 8px;
+    display: inline;
 }
 
 /* Footer (right)*/
 #footer{
     grid-area: m;
     background-color: blue;
+    display: grid;
+    grid-template-columns: 5fr 1fr;                    
+}
+#send{
+    line-height: 2;    
+    text-align: center;    
+    color: white;
+    background-color: blueviolet;        
+    margin:0px;    
 }
