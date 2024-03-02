@@ -1,4 +1,7 @@
+/* General part */
 body{
+    display: grid;
+    grid-template-rows: 1fr 30fr;
     margin: 0;
 }
 .rect{
@@ -6,22 +9,18 @@ body{
     box-shadow: 5px 5px 5px;
 }
 .right{
-    width: 60%;
+    width: 50%;
     justify-self: right;
 }
 .left{
-    width: 60%;
+    width: 50%;
     justify-self: left;
 }
 
 /* Header */
 #header{
     background-color: black;
-    position: fixed;
-    top:0;
-    height: 30px;
     color: white;
-    width: 100%;          
     display: grid;
     grid-template-columns: 1fr 12fr;
     align-content: center;
@@ -54,12 +53,17 @@ body{
 /* Top */
 #top{
     display: grid;
-    grid-template-rows: 2fr 1fr ;
+    grid-template-columns: 2fr 1fr ;
     grid-gap: 20px;
 }
 #top_left{
     display: grid;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr; 
+    grid-gap: 20px;
+}
+#top_left_top{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
     grid-gap: 20px;
 }
 .white{
@@ -67,6 +71,14 @@ body{
 }
 .purple{
     background-color: purple;
+}
+#circle {
+    background: radial-gradient(white, black);
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* clip-path: circle(); */
+    display: inline-block;
 }
 
 /* Center */
