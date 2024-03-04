@@ -1,0 +1,96 @@
+*{
+    font-family: inter;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.calc-container{
+    height:844px;
+    width:390px;
+    background-color: #151515;
+    border-radius: 40px;
+}
+
+/* top */
+.calc-container .top-container{
+    height: 284px; 
+    /* height = 322 - 2*padding =  284*/
+    color: #FFFFFF;    
+    display: flex;  
+    justify-content: space-between;        
+    flex-direction: column;    
+    padding: 19px;
+}
+.calc-container .top-container .top-top-container{
+    font-size: 48px;  
+    display: flex;  
+    justify-content: space-between;        
+    flex-direction: column;    
+}
+.calc-container .top-container .top-top-container .calc{
+    display: flex;  
+    justify-content: right;
+    border-right: 1px solid #969696;
+    margin-top: 50px;
+    list-style: none;        
+}
+.calc-container .top-container .top-top-container .calc li{
+    padding-right: 10px;
+}
+.calc-container .top-container .top-top-container .result{
+    display: flex;  
+    justify-content: right;
+    color: #969696;
+    padding-top: 70px;
+}
+.calc-container .top-container .top-bottom-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;    
+}
+.calc-container .top-container .top-bottom-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;    
+}
+.calc-container .top-container .top-bottom-container ul li{
+    padding-right: 19px;        
+}
+
+/* bottom */
+.calc-container .bottom-container{
+    border-top: 1px solid #4E4D4D;
+    padding: 19px;    
+} 
+.calc-container .bottom-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;    
+}
+.calc-container .bottom-container ul li{
+    height:75px;
+    width:73px;
+    border-radius: 9px;
+    background-color: #343434;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    color: #FFFFFF;
+    font-size:36px;
+    margin-bottom: 19px;
+}
+.calc-container .bottom-container ul .icon{
+    font-size:24px;
+    font-family: inter;
+    color: #66FF7F;
+}
+.calc-container .bottom-container ul li:nth-child(1){
+    background-color: #FF5959;
+    color: #343434;
+}
+.calc-container .bottom-container ul li:last-child{
+    background-color: #66FF7F;
+    color: #343434;    
+}
