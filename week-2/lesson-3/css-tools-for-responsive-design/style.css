@@ -1,0 +1,26 @@
+img{
+    flex: 25%;
+    padding: 20px;
+    max-width: 25%;
+}
+
+@media screen and (max-width: 992px) {
+    img {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .parent {
+      /* flex-direction: column; */
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+.parent:{
+    display: flex;
+    flex-wrap: wrap;
+}
