@@ -1,0 +1,28 @@
+.parent{
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-self: center 
+}
+
+h1{
+    justify-self: center;
+}
+
+body{
+    display: grid;
+}
+
+.char{
+    text-align: center;
+    font-family: cursive;
+    font-size: large;
+    font-variant: small-caps;
+    max-width: 50%;
+}
+
+.submit{
+    max-width: 100px;
+    justify-self: center;
+    margin-top: 30px;
+}
