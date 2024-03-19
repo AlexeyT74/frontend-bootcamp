@@ -63,7 +63,7 @@ console.log(withBob);
 // ["boo", "doooo", "hoo","ro"] it will return this array: [3, 5, 3, 2].
 
 function getLengths(strings){
-    let ret = [];
+    const ret = [];
     for(let i=0; i<strings.length; i++){
         ret.push(strings[i].length)
     }
