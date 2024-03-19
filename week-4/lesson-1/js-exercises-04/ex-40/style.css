@@ -1,0 +1,23 @@
+body{
+    display: grid;
+}
+
+.container{
+    display:flex;
+    justify-self: center;
+    gap: 30px;
+}
+
+.text{    
+    width: 70%;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 3px;
+    justify-self: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+input{
+    font-size: x-large;
+}
