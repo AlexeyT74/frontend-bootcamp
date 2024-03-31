@@ -16,3 +16,7 @@ input.color {
 input.submit {
   border-radius: 5px;
 }
+input.picker{
+  margin-bottom: 10px;
+  border-radius: 5px;
+}

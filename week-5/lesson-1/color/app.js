@@ -8,7 +8,18 @@ function isValidHexColor(color) {
 const submitBtn = document.querySelector("input.submit");
 submitBtn.addEventListener("click",onSubmit);
 
-// The function that executes when the user press the "Submit" button
+// Register event listener for the color picker
+const pickerBtn = document.querySelector("input.picker");
+pickerBtn.addEventListener("input",onPickerChange);
+
+// A function that executes when a user press changes a color in the picker element
+function onPickerChange(event){
+    const colorPicker = document.querySelector("input.picker");
+    const colorValue = colorPicker.value;
+    document.body.style.backgroundColor = colorValue;
+}
+
+// A function that executes when a user press the "Submit" button
 function onSubmit(event){
 
     // Get a string entered by a user
