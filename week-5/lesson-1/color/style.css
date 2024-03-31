@@ -1,0 +1,18 @@
+* {
+  font-family: cursive;
+  font-size: large;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+input.color {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+input.submit {
+  border-radius: 5px;
+}
